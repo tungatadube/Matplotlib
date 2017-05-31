@@ -3,11 +3,11 @@ from pylab import *
 
 x = linspace(-5, 5, 10,)
 
-Vel = x**3 + 2
-y = Vel
+func = x**3 + 2
+y = func
 figure()
 plot(x, y, 'r')
 xlabel('x')
 ylabel('y')
-title('Vel')
+title('func')
 show()
